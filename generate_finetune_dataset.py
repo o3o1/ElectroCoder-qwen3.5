@@ -208,11 +208,13 @@ async def generate_finetuning_dataset():
 
                     # 增强版的错误回投提示词，告知模型排查崩溃
                     error_feedback = (
-                        f"你生成的代码报错或运行异常了：\n{truncated_output}\n"
+                        f"【重要说明】输出中若只有 warning 开头的内容，仅为编译警告，不是错误，无需修改！\n"
+                        f"本次失败的核心原因是程序运行异常或 Exit Code 非 0，请聚焦排查运行逻辑问题。\n"
+                        f"完整输出信息：\n{truncated_output}\n"
                         f"请仔细分析原因，找出 Bug 并修正它。\n"
                         f"【注意】：\n"
                         f"1. 如果是找不到头文件的错误，请直接删除该 #include 语句，改为手动 mock 寄存器！\n"
-                        f"2. 如果是 Exit Code 非0 的程序崩溃，请重点检查：指针是否为空或未初始化、数组是否越界、是否存在除以 0、死循环，并确保 main 最终 return 0;\n"
+                        f"2. 如果是 Exit Code 非0 的程序崩溃/运行失败，请重点检查：指针是否为空或未初始化、数组是否越界、是否存在除以 0、死循环，并确保 main 函数最终 return 0；\n"
                         f"请直接输出修正后的完整 C 语言代码，必须放在 ```c 和 ``` 之间。"
                     )
                     messages.append({"role": "user", "content": error_feedback})
