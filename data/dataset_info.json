@@ -1,0 +1,11 @@
+{
+  "deepseek_ee_code": {
+    "file_name": "deepseek_solved_finetuning.jsonl",
+    "format": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "role": "role",
+      "content": "content"
+    }
+  }
+}
