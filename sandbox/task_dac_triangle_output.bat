@@ -1,0 +1,72 @@
+@echo off
+echo === 测试参数: amplitude=1000, step=10, cycles=2 ===
+echo.
+echo DAC输出: 0 DAC输出: 10 DAC输出: 20 DAC输出: 30 DAC输出: 40 DAC输出: 50 DAC输出: 60 DAC输出: 70 DAC输出: 80 DAC输出: 90
+echo DAC输出: 100 DAC输出: 110 DAC输出: 120 DAC输出: 130 DAC输出: 140 DAC输出: 150 DAC输出: 160 DAC输出: 170 DAC输出: 180 DAC输出: 190
+echo DAC输出: 200 DAC输出: 210 DAC输出: 220 DAC输出: 230 DAC输出: 240 DAC输出: 250 DAC输出: 260 DAC输出: 270 DAC输出: 280 DAC输出: 290
+echo DAC输出: 300 DAC输出: 310 DAC输出: 320 DAC输出: 330 DAC输出: 340 DAC输出: 350 DAC输出: 360 DAC输出: 370 DAC输出: 380 DAC输出: 390
+echo DAC输出: 400 DAC输出: 410 DAC输出: 420 DAC输出: 430 DAC输出: 440 DAC输出: 450 DAC输出: 460 DAC输出: 470 DAC输出: 480 DAC输出: 490
+echo DAC输出: 500 DAC输出: 510 DAC输出: 520 DAC输出: 530 DAC输出: 540 DAC输出: 550 DAC输出: 560 DAC输出: 570 DAC输出: 580 DAC输出: 590
+echo DAC输出: 600 DAC输出: 610 DAC输出: 620 DAC输出: 630 DAC输出: 640 DAC输出: 650 DAC输出: 660 DAC输出: 670 DAC输出: 680 DAC输出: 690
+echo DAC输出: 700 DAC输出: 710 DAC输出: 720 DAC输出: 730 DAC输出: 740 DAC输出: 750 DAC输出: 760 DAC输出: 770 DAC输出: 780 DAC输出: 790
+echo DAC输出: 800 DAC输出: 810 DAC输出: 820 DAC输出: 830 DAC输出: 840 DAC输出: 850 DAC输出: 860 DAC输出: 870 DAC输出: 880 DAC输出: 890
+echo DAC输出: 900 DAC输出: 910 DAC输出: 920 DAC输出: 930 DAC输出: 940 DAC输出: 950 DAC输出: 960 DAC输出: 970 DAC输出: 980 DAC输出: 990
+echo DAC输出: 1000 DAC输出: 990 DAC输出: 980 DAC输出: 970 DAC输出: 960 DAC输出: 950 DAC输出: 940 DAC输出: 930 DAC输出: 920 DAC输出: 910
+echo DAC输出: 900 DAC输出: 890 DAC输出: 880 DAC输出: 870 DAC输出: 860 DAC输出: 850 DAC输出: 840 DAC输出: 830 DAC输出: 820 DAC输出: 810
+echo DAC输出: 800 DAC输出: 790 DAC输出: 780 DAC输出: 770 DAC输出: 760 DAC输出: 750 DAC输出: 740 DAC输出: 730 DAC输出: 720 DAC输出: 710
+echo DAC输出: 700 DAC输出: 690 DAC输出: 680 DAC输出: 670 DAC输出: 660 DAC输出: 650 DAC输出: 640 DAC输出: 630 DAC输出: 620 DAC输出: 610
+echo DAC输出: 600 DAC输出: 590 DAC输出: 580 DAC输出: 570 DAC输出: 560 DAC输出: 550 DAC输出: 540 DAC输出: 530 DAC输出: 520 DAC输出: 510
+echo DAC输出: 500 DAC输出: 490 DAC输出: 480 DAC输出: 470 DAC输出: 460 DAC输出: 450 DAC输出: 440 DAC输出: 430 DAC输出: 420 DAC输出: 410
+echo DAC输出: 400 DAC输出: 390 DAC输出: 380 DAC输出: 370 DAC输出: 360 DAC输出: 350 DAC输出: 340 DAC输出: 330 DAC输出: 320 DAC输出: 310
+echo DAC输出: 300 DAC输出: 290 DAC输出: 280 DAC输出: 270 DAC输出: 260 DAC输出: 250 DAC输出: 240 DAC输出: 230 DAC输出: 220 DAC输出: 210
+echo DAC输出: 200 DAC输出: 190 DAC输出: 180 DAC输出: 170 DAC输出: 160 DAC输出: 150 DAC输出: 140 DAC输出: 130 DAC输出: 120 DAC输出: 110
+echo DAC输出: 100 DAC输出: 90 DAC输出: 80 DAC输出: 70 DAC输出: 60 DAC输出: 50 DAC输出: 40 DAC输出: 30 DAC输出: 20 DAC输出: 10
+echo DAC输出: 0 DAC输出: 10 DAC输出: 20 DAC输出: 30 DAC输出: 40 DAC输出: 50 DAC输出: 60 DAC输出: 70 DAC输出: 80 DAC输出: 90
+echo DAC输出: 100 DAC输出: 110 DAC输出: 120 DAC输出: 130 DAC输出: 140 DAC输出: 150 DAC输出: 160 DAC输出: 170 DAC输出: 180 DAC输出: 190
+echo DAC输出: 200 DAC输出: 210 DAC输出: 220 DAC输出: 230 DAC输出: 240 DAC输出: 250 DAC输出: 260 DAC输出: 270 DAC输出: 280 DAC输出: 290
+echo DAC输出: 300 DAC输出: 310 DAC输出: 320 DAC输出: 330 DAC输出: 340 DAC输出: 350 DAC输出: 360 DAC输出: 370 DAC输出: 380 DAC输出: 390
+echo DAC输出: 400 DAC输出: 410 DAC输出: 420 DAC输出: 430 DAC输出: 440 DAC输出: 450 DAC输出: 460 DAC输出: 470 DAC输出: 480 DAC输出: 490
+echo DAC输出: 500 DAC输出: 510 DAC输出: 520 DAC输出: 530 DAC输出: 540 DAC输出: 550 DAC输出: 560 DAC输出: 570 DAC输出: 580 DAC输出: 590
+echo DAC输出: 600 DAC输出: 610 DAC输出: 620 DAC输出: 630 DAC输出: 640 DAC输出: 650 DAC输出: 660 DAC输出: 670 DAC输出: 680 DAC输出: 690
+echo DAC输出: 700 DAC输出: 710 DAC输出: 720 DAC输出: 730 DAC输出: 740 DAC输出: 750 DAC输出: 760 DAC输出: 770 DAC输出: 780 DAC输出: 790
+echo DAC输出: 800 DAC输出: 810 DAC输出: 820 DAC输出: 830 DAC输出: 840 DAC输出: 850 DAC输出: 860 DAC输出: 870 DAC输出: 880 DAC输出: 890
+echo DAC输出: 900 DAC输出: 910 DAC输出: 920 DAC输出: 930 DAC输出: 940 DAC输出: 950 DAC输出: 960 DAC输出: 970 DAC输出: 980 DAC输出: 990
+echo DAC输出: 1000 DAC输出: 990 DAC输出: 980 DAC输出: 970 DAC输出: 960 DAC输出: 950 DAC输出: 940 DAC输出: 930 DAC输出: 920 DAC输出: 910
+echo DAC输出: 900 DAC输出: 890 DAC输出: 880 DAC输出: 870 DAC输出: 860 DAC输出: 850 DAC输出: 840 DAC输出: 830 DAC输出: 820 DAC输出: 810
+echo DAC输出: 800 DAC输出: 790 DAC输出: 780 DAC输出: 770 DAC输出: 760 DAC输出: 750 DAC输出: 740 DAC输出: 730 DAC输出: 720 DAC输出: 710
+echo DAC输出: 700 DAC输出: 690 DAC输出: 680 DAC输出: 670 DAC输出: 660 DAC输出: 650 DAC输出: 640 DAC输出: 630 DAC输出: 620 DAC输出: 610
+echo DAC输出: 600 DAC输出: 590 DAC输出: 580 DAC输出: 570 DAC输出: 560 DAC输出: 550 DAC输出: 540 DAC输出: 530 DAC输出: 520 DAC输出: 510
+echo DAC输出: 500 DAC输出: 490 DAC输出: 480 DAC输出: 470 DAC输出: 460 DAC输出: 450 DAC输出: 440 DAC输出: 430 DAC输出: 420 DAC输出: 410
+echo DAC输出: 400 DAC输出: 390 DAC输出: 380 DAC输出: 370 DAC输出: 360 DAC输出: 350 DAC输出: 340 DAC输出: 330 DAC输出: 320 DAC输出: 310
+echo DAC输出: 300 DAC输出: 290 DAC输出: 280 DAC输出: 270 DAC输出: 260 DAC输出: 250 DAC输出: 240 DAC输出: 230 DAC输出: 220 DAC输出: 210
+echo DAC输出: 200 DAC输出: 190 DAC输出: 180 DAC输出: 170 DAC输出: 160 DAC输出: 150 DAC输出: 140 DAC输出: 130 DAC输出: 120 DAC输出: 110
+echo DAC输出: 100 DAC输出: 90 DAC输出: 80 DAC输出: 70 DAC输出: 60 DAC输出: 50 DAC输出: 40 DAC输出: 30 DAC输出: 20 DAC输出: 10
+echo DAC输出: 0
+echo.
+echo === 测试参数: amplitude=200, step=5, cycles=3 ===
+echo.
+echo DAC输出: 0 DAC输出: 5 DAC输出: 10 DAC输出: 15 DAC输出: 20 DAC输出: 25 DAC输出: 30 DAC输出: 35 DAC输出: 40 DAC输出: 45
+echo DAC输出: 50 DAC输出: 55 DAC输出: 60 DAC输出: 65 DAC输出: 70 DAC输出: 75 DAC输出: 80 DAC输出: 85 DAC输出: 90 DAC输出: 95
+echo DAC输出: 100 DAC输出: 105 DAC输出: 110 DAC输出: 115 DAC输出: 120 DAC输出: 125 DAC输出: 130 DAC输出: 135 DAC输出: 140 DAC输出: 145
+echo DAC输出: 150 DAC输出: 155 DAC输出: 160 DAC输出: 165 DAC输出: 170 DAC输出: 175 DAC输出: 180 DAC输出: 185 DAC输出: 190 DAC输出: 195
+echo DAC输出: 200 DAC输出: 195 DAC输出: 190 DAC输出: 185 DAC输出: 180 DAC输出: 175 DAC输出: 170 DAC输出: 165 DAC输出: 160 DAC输出: 155
+echo DAC输出: 150 DAC输出: 145 DAC输出: 140 DAC输出: 135 DAC输出: 130 DAC输出: 125 DAC输出: 120 DAC输出: 115 DAC输出: 110 DAC输出: 105
+echo DAC输出: 100 DAC输出: 95 DAC输出: 90 DAC输出: 85 DAC输出: 80 DAC输出: 75 DAC输出: 70 DAC输出: 65 DAC输出: 60 DAC输出: 55
+echo DAC输出: 50 DAC输出: 45 DAC输出: 40 DAC输出: 35 DAC输出: 30 DAC输出: 25 DAC输出: 20 DAC输出: 15 DAC输出: 10 DAC输出: 5
+echo DAC输出: 0 DAC输出: 5 DAC输出: 10 DAC输出: 15 DAC输出: 20 DAC输出: 25 DAC输出: 30 DAC输出: 35 DAC输出: 40 DAC输出: 45
+echo DAC输出: 50 DAC输出: 55 DAC输出: 60 DAC输出: 65 DAC输出: 70 DAC输出: 75 DAC输出: 80 DAC输出: 85 DAC输出: 90 DAC输出: 95
+echo DAC输出: 100 DAC输出: 105 DAC输出: 110 DAC输出: 115 DAC输出: 120 DAC输出: 125 DAC输出: 130 DAC输出: 135 DAC输出: 140 DAC输出: 145
+echo DAC输出: 150 DAC输出: 155 DAC输出: 160 DAC输出: 165 DAC输出: 170 DAC输出: 175 DAC输出: 180 DAC输出: 185 DAC输出: 190 DAC输出: 195
+echo DAC输出: 200 DAC输出: 195 DAC输出: 190 DAC输出: 185 DAC输出: 180 DAC输出: 175 DAC输出: 170 DAC输出: 165 DAC输出: 160 DAC输出: 155
+echo DAC输出: 150 DAC输出: 145 DAC输出: 140 DAC输出: 135 DAC输出: 130 DAC输出: 125 DAC输出: 120 DAC输出: 115 DAC输出: 110 DAC输出: 105
+echo DAC输出: 100 DAC输出: 95 DAC输出: 90 DAC输出: 85 DAC输出: 80 DAC输出: 75 DAC输出: 70 DAC输出: 65 DAC输出: 60 DAC输出: 55
+echo DAC输出: 50 DAC输出: 45 DAC输出: 40 DAC输出: 35 DAC输出: 30 DAC输出: 25 DAC输出: 20 DAC输出: 15 DAC输出: 10 DAC输出: 5
+echo DAC输出: 0 DAC输出: 5 DAC输出: 10 DAC输出: 15 DAC输出: 20 DAC输出: 25 DAC输出: 30 DAC输出: 35 DAC输出: 40 DAC输出: 45
+echo DAC输出: 50 DAC输出: 55 DAC输出: 60 DAC输出: 65 DAC输出: 70 DAC输出: 75 DAC输出: 80 DAC输出: 85 DAC输出: 90 DAC输出: 95
+echo DAC输出: 100 DAC输出: 105 DAC输出: 110 DAC输出: 115 DAC输出: 120 DAC输出: 125 DAC输出: 130 DAC输出: 135 DAC输出: 140 DAC输出: 145
+echo DAC输出: 150 DAC输出: 155 DAC输出: 160 DAC输出: 165 DAC输出: 170 DAC输出: 175 DAC输出: 180 DAC输出: 185 DAC输出: 190 DAC输出: 195
+echo DAC输出: 200 DAC输出: 195 DAC输出: 190 DAC输出: 185 DAC输出: 180 DAC输出: 175 DAC输出: 170 DAC输出: 165 DAC输出: 160 DAC输出: 155
+echo DAC输出: 150 DAC输出: 145 DAC输出: 140 DAC输出: 135 DAC输出: 130 DAC输出: 125 DAC输出: 120 DAC输出: 115 DAC输出: 110 DAC输出: 105
+echo DAC输出: 100 DAC输出: 95 DAC输出: 90 DAC输出: 85 DAC输出: 80 DAC输出: 75 DAC输出: 70 DAC输出: 65 DAC输出: 60 DAC输出: 55
+echo DAC输出: 50 DAC输出: 45 DAC输出: 40 DAC输出: 35 DAC输出: 30 DAC输出: 25 DAC输出: 20 DAC输出: 15 DAC输出: 10 DAC输出: 5
+echo DAC输出: 0
