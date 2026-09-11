@@ -1,11 +1,11 @@
 {
   "deepseek_ee_code": {
-    "file_name": "deepseek_solved_finetuning.jsonl",
-    "format": "sharegpt",
+    "file_name": "train_alpaca.jsonl",
+    "format": "alpaca",
     "columns": {
-      "messages": "messages",
-      "role": "role",
-      "content": "content"
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
     }
   }
 }
