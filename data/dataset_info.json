@@ -1,7 +1,7 @@
 {
   "deepseek_ee_code": {
     "file_name": "train_alpaca.jsonl",
-    "format": "alpaca",
+    "formatting": "alpaca",
     "columns": {
       "prompt": "instruction",
       "query": "input",

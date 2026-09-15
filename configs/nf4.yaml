@@ -1,0 +1,4 @@
+# Default 4090 24GB configuration. All omitted options use train.py defaults.
+model: Qwen/Qwen3.5-4B
+precision: bf16
+quantization: nf4

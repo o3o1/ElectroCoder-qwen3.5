@@ -1,3 +1,0 @@
-@echo off
-echo 正在运行Python版本的PLL程序...
-python run_pll_simple.py

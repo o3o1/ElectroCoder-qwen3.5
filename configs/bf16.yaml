@@ -1,0 +1,3 @@
+model: Qwen/Qwen3.5-4B
+precision: bf16
+quantization: none
