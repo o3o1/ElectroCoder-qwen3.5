@@ -360,6 +360,7 @@ def factory_config(config):
         report_to="none",
         logging_first_step=True,
         logging_strategy="steps",
+        include_num_input_tokens_seen="non_padding",
         save_strategy="steps",
         dataloader_num_workers=0,
         dataloader_pin_memory=False,
@@ -371,7 +372,7 @@ def factory_config(config):
         prediction_loss_only=True,
         seed=config["seed"],
         data_seed=config["seed"],
-        disable_tqdm=True,
+        disable_tqdm=False,
     )
     return result
 
@@ -558,7 +559,6 @@ def training_callback(config, diagnostics):
             }
             with (diagnostics / "metrics.jsonl").open("a", encoding="utf-8") as stream:
                 stream.write(json.dumps(record, ensure_ascii=False) + "\n")
-            print("[progress] " + json.dumps(record), flush=True)
 
         def on_train_end(self, args, state, control, model=None, **kwargs):
             changed = []
